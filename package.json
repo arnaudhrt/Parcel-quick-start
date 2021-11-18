@@ -1,0 +1,21 @@
+{
+  "name": "starter_kit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "start-multiple-entries": "parcel index.html centered.html what.html ",
+    "build": "parcel build index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "parcel-plugin-asset-copier": "^1.1.0"
+  },
+  "devDependencies": {
+    "sass": "^1.43.4",
+    "parcel-bundler": "^1.12.5"
+  },
+  "assetsPath": "assets"
+}
